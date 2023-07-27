@@ -4,18 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wall_gradient"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txtText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
         android:layout_gravity="center"
-        android:textSize="32sp"
+        android:layout_marginTop="80dp"
         android:text="@string/the_greetings_app"
-         />
+        android:textSize="32sp" />
 
     <EditText
         android:id="@+id/etText"
@@ -23,20 +22,18 @@
         android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="208dp"
-        android:hint="@string/please_enter_your_name"
-        android:textColorHint="@color/black"
-        android:inputType="text"
         android:autofillHints="Enter name"
-         />
+        android:hint="@string/please_enter_your_name"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
 
     <Button
 
         android:id="@+id/btnHello"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:text="@string/hello"
-        android:layout_marginTop="52dp"
         android:layout_gravity="center"
-        />
+        android:layout_marginTop="52dp"
+        android:text="@string/hello" />
 
 </LinearLayout>
