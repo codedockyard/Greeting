@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall_gradient"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:text="@string/the_greetings_app"
+         />
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="208dp"
+        android:hint="@string/please_enter_your_name"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:autofillHints="Enter name"
+         />
+
+    <Button
+
+        android:id="@+id/btnHello"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/hello"
+        android:layout_marginTop="52dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
