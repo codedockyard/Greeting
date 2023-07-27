@@ -21,16 +21,10 @@ public class MainActivity extends AppCompatActivity {
         btnHello.setOnClickListener(view -> {
             String name = etText.getText().toString();
 
-            // Displaying the entered name
+            // Displaying toast
             Toast.makeText(MainActivity.this, "Hello " + name, Toast.LENGTH_LONG).show();
         });
 
 
     }
 }
-
-
-//                2- make the greetings app
-//                3- The Counter App
-//                4- make a new section with a presentation for the progress    (Progress Presentation)
-//                Unit Converter App
